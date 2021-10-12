@@ -11,9 +11,7 @@ import java.util.Scanner;
 
 public class ex45 {
     public static void main(String[] args) throws IOException {
-        //File in = new File("src/main/java/ex45/exercise45_input.txt");
         FileWriter fw = new FileWriter("src/main/java/ex45/exercise45_output.txt");
-
 
         String text = Files.readString(Path.of("src/main/java/ex45/exercise45_input.txt"));
         System.out.println(text+"\n");
